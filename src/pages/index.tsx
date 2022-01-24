@@ -24,7 +24,12 @@ const IndexPage = () => (
           padding: "2em 0",
         }}
       >
-        <Link to="/breakfast">Breakfast</Link> <br />
+        <Link
+          to="/breakfast"
+          style={{ fontWeight: "bold", fontSize: "1.5rem" }}
+        >
+          Breakfast
+        </Link>
       </div>
       <div
         style={{
@@ -33,7 +38,9 @@ const IndexPage = () => (
           padding: "2em 0",
         }}
       >
-        <Link to="/lunch/">Lunch</Link> <br />
+        <Link to="/lunch/" style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
+          Lunch
+        </Link>
       </div>
       <div
         style={{
@@ -42,7 +49,12 @@ const IndexPage = () => (
           padding: "2em 0",
         }}
       >
-        <Link to="/daily-specials/">Daily Specials</Link> <br />
+        <Link
+          to="/daily-specials/"
+          style={{ fontWeight: "bold", fontSize: "1.5rem" }}
+        >
+          Daily Specials
+        </Link>
       </div>
       <div
         style={{
@@ -51,7 +63,12 @@ const IndexPage = () => (
           padding: "2em 0",
         }}
       >
-        <Link to="/catering/">Catering</Link> <br />
+        <Link
+          to="/catering/"
+          style={{ fontWeight: "bold", fontSize: "1.5rem" }}
+        >
+          Catering
+        </Link>
       </div>
     </div>
   </Layout>
