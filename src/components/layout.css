@@ -54,7 +54,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #0077B6;
+  color: #ff5131;
 }
 a:active,
 a:hover {
@@ -82,7 +82,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: #0077B6;
+  color: #d50000;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
