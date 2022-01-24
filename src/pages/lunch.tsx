@@ -55,18 +55,18 @@ const LunchPage = () => (
     </MenuSection>
     <MenuSection header="Salads" anchor="salads">
       <li>Garden Salad</li>
-      <p>S: $5.99 / L: $7.99</p>
+      <p>Small: $5.99 / Large: $7.99</p>
       <li>Caesar Salad</li>
-      <p>S: $5.99 / L: $7.99</p>
+      <p>Small: $5.99 / Large: $7.99</p>
       <li>Fattoush Salad</li>
-      <p>S: $5.99 / L: $8.99</p>
+      <p>Small: $5.99 / Large: $8.99</p>
       <li>Greek Salad</li>
-      <p>S: $6.99 / L: $8.99</p>
+      <p>Small: $6.99 / Large: $8.99</p>
       <li>Chicken Caesar Salad</li>
-      <p>S: $7.99 / L: $9.99</p>
+      <p>Small: $7.99 / Large: $9.99</p>
     </MenuSection>
     <MenuSection header="Soup" anchor="soup">
-      <p>S: $3.99 / L: $5.49</p>
+      <p>Small: $3.99 / Large: $5.49</p>
     </MenuSection>
     <MenuSection header="Platters" price="$11.49" anchor="platters">
       <li>Club Sandwich Platter</li>
