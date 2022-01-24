@@ -34,6 +34,24 @@ const LunchPage = () => (
       <li>Turkey Club</li>
       <li>Chicken Caeser</li>
     </Menu>
+
+    <Menu header="Paninis" price="$6.99">
+      <li>Chicken Bacon</li>
+      <li>Chicken with Pickled Vegetables</li>
+      <li>Croque Monsieur</li>
+      <li>Monte Cristo</li>
+      <li>Italian</li>
+      <li>Roast Beef</li>
+      <li>Pulled Pork</li>
+      <li>Smoked Meat</li>
+      <li>Mediterranean</li>
+      <li>Chuck's Steak</li>
+      <li>Chicken Club</li>
+      <li>Pulled Chicken</li>
+      <li>Brie Cheese</li>
+      <li>Grilled Vegetables</li>
+      <li>Chicken Parmesan</li>
+    </Menu>
   </Layout>
 )
 
