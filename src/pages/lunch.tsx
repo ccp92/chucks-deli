@@ -65,6 +65,16 @@ const LunchPage = () => (
       <li>Chicken Caesar Salad</li>
       <p>S: $7.99 / L: $9.99</p>
     </Menu>
+
+    <Menu header="Soup">
+      <p>S: $3.99 / L: $5.49</p>
+    </Menu>
+
+    <Menu header="Platters" price="$11.49">
+      <li>Club Sandwich Platter</li>
+      <li>Smoked Meat Platter</li>
+      <li>California Club Platter</li>
+    </Menu>
   </Layout>
 )
 
