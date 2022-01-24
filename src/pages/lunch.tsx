@@ -52,6 +52,19 @@ const LunchPage = () => (
       <li>Grilled Vegetables</li>
       <li>Chicken Parmesan</li>
     </Menu>
+
+    <Menu header="Salads">
+      <li>Garden Salad</li>
+      <p>S: $5.99 / L: $7.99</p>
+      <li>Caesar Salad</li>
+      <p>S: $5.99 / L: $7.99</p>
+      <li>Fattoush Salad</li>
+      <p>S: $5.99 / L: $8.99</p>
+      <li>Greek Salad</li>
+      <p>S: $6.99 / L: $8.99</p>
+      <li>Chicken Caesar Salad</li>
+      <p>S: $7.99 / L: $9.99</p>
+    </Menu>
   </Layout>
 )
 

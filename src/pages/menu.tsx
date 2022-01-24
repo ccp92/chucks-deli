@@ -3,13 +3,18 @@ import React from "react"
 interface MenuProps {
   children?: React.ReactNode
   header: string
-  price: string
+  price?: string
 }
 
 const Menu = ({children, header, price}: MenuProps) => {
+  let headerSection = header;
+
+  if (price) {
+    headerSection += `: ${price}`;
+  }
   return (
     <div>
-      <h2>{header}: {price}</h2>
+      <h2>{headerSection}</h2>
       <ul>
         {children}
       </ul>
