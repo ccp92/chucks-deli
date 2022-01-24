@@ -8,6 +8,9 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Menu" />
+    <StaticImage src="../images/chucks.JPG" alt="Chuck's Deli & Convenience" style={{
+      maxHeight: "20%"
+    }} />
     <h1>Menu</h1>
     <p>
       <Link to="/breakfast">Breakfast</Link> <br />
