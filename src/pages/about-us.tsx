@@ -7,7 +7,7 @@ const BreakfastPage = () => (
   <Layout>
     <Seo title="About Us" />
     <h1>About Us</h1>
-    <p>Welcome to Chuck's Deli & Convenience</p>
+    <h3>Welcome to Chuck's Deli & Convenience</h3>
     <p>
       Chuck's Deli & Convenience and Brown's Cleaners made their début in the
       Train Yards in 2007. It was a momentous occasion — one that required that
