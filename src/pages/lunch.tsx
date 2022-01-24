@@ -2,14 +2,17 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Menu from "./menu"
+import MenuSection from "./menu"
 
 const LunchPage = () => (
   <Layout>
-    <Seo title="Lunch" />
-    <h1>Lunch</h1>
-    <p>All Prices do not include taxes</p>
-    <Menu header="Sandwiches" price="$6.99">
+    <Seo title="Lunch Menu" />
+    <h1>Lunch Menu</h1>
+    <a href="#sandwiches">Sandwiches</a> <a href="#wraps">Wraps</a>{" "}
+    <a href="#paninis">Paninis</a> <a href="#salads">Salads</a>{" "}
+    <a href="#soup">Soup</a> <a href="#platters">Platters</a>
+    <p>All prices do not include taxes</p>
+    <MenuSection header="Sandwiches" price="$6.99" anchor="sandwiches">
       <li>Turkey and Hot Capocola</li>
       <li>Turkey and Prosciutto</li>
       <li>Turkey and Cheese</li>
@@ -18,11 +21,10 @@ const LunchPage = () => (
       <li>Ham and Cheese</li>
       <li>Ham and Chicken</li>
       <li>Chicken and Salami</li>
-    </Menu>
+    </MenuSection>
     <p>Extra meat - $2.00</p>
     <p>Extra cheese - $1.00</p>
-
-    <Menu header="Wraps" price="$6.99">
+    <MenuSection header="Wraps" price="$6.99" anchor="wraps">
       <li>Chicken Salad</li>
       <li>Tuna Salad</li>
       <li>Egg Salad</li>
@@ -33,9 +35,8 @@ const LunchPage = () => (
       <li>Vegetarian</li>
       <li>Turkey Club</li>
       <li>Chicken Caeser</li>
-    </Menu>
-
-    <Menu header="Paninis" price="$6.99">
+    </MenuSection>
+    <MenuSection header="Paninis" price="$6.99" anchor="paninis">
       <li>Chicken Bacon</li>
       <li>Chicken with Pickled Vegetables</li>
       <li>Croque Monsieur</li>
@@ -51,9 +52,8 @@ const LunchPage = () => (
       <li>Brie Cheese</li>
       <li>Grilled Vegetables</li>
       <li>Chicken Parmesan</li>
-    </Menu>
-
-    <Menu header="Salads">
+    </MenuSection>
+    <MenuSection header="Salads" anchor="salads">
       <li>Garden Salad</li>
       <p>S: $5.99 / L: $7.99</p>
       <li>Caesar Salad</li>
@@ -64,17 +64,15 @@ const LunchPage = () => (
       <p>S: $6.99 / L: $8.99</p>
       <li>Chicken Caesar Salad</li>
       <p>S: $7.99 / L: $9.99</p>
-    </Menu>
-
-    <Menu header="Soup">
+    </MenuSection>
+    <MenuSection header="Soup" anchor="soup">
       <p>S: $3.99 / L: $5.49</p>
-    </Menu>
-
-    <Menu header="Platters" price="$11.49">
+    </MenuSection>
+    <MenuSection header="Platters" price="$11.49" anchor="platters">
       <li>Club Sandwich Platter</li>
       <li>Smoked Meat Platter</li>
       <li>California Club Platter</li>
-    </Menu>
+    </MenuSection>
   </Layout>
 )
 

@@ -4,16 +4,17 @@ interface MenuProps {
   children?: React.ReactNode
   header: string
   price?: string
+  anchor: string
 }
 
-const Menu = ({children, header, price}: MenuProps) => {
+const MenuSection = ({children, header, price, anchor}: MenuProps) => {
   let headerSection = header;
 
   if (price) {
     headerSection += `: ${price}`;
   }
   return (
-    <div>
+    <div id={anchor}>
       <h2>{headerSection}</h2>
       <ul>
         {children}
@@ -22,4 +23,4 @@ const Menu = ({children, header, price}: MenuProps) => {
   )
 }
 
-export default Menu
+export default MenuSection
