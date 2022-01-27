@@ -34,11 +34,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
+        <footer>
           <Link to="/location">Location</Link> <br />
           <Link to="/about-us">About Us</Link> <br />
         </footer>

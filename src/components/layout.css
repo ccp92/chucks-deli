@@ -25,7 +25,19 @@ aside,
 details,
 figcaption,
 figure,
-footer,
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #9b0000;
+  width: 100%;
+  padding: 1em;
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+}
 header,
 main,
 menu,
