@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 
 import Layout from "../components/layout"
@@ -32,6 +33,16 @@ const BreakfastPage = () => (
       the ranks of the faithful. And, you can drop off your cleaning at the same
       time.
     </p>
+
+    <StaticImage
+      src="../images/chucks_about_2.JPG"
+      alt="Chuck's Deli & Convenience food choices"
+    />
+
+    <StaticImage
+      src="../images/chucks_about_1.JPG"
+      alt="Chuck's Deli & Convenience employees"
+    />
   </Layout>
 )
 
